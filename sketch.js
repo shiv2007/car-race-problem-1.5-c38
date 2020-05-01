@@ -9,6 +9,20 @@ var database;
 var form, player, game;
 
 var cars, car1, car2, car3, car4;
+var track,ground,car1_img,car2_img,car3_img,car4_img;
+
+function Preload(){
+
+track = loadImage("images/track.jpg");
+ground = loadImage("images/ground.png");
+car1_img = loadImage("images/car1.png");
+car2_img = loadImage("images/car2.png");
+car3_img = loadImage("images/car3.png");
+car4_img = loadImage("images/car4.png");
+
+}
+
+
 
 
 function setup(){
